@@ -33,6 +33,27 @@ class MainActivity : AppCompatActivity() {
         val employee8 = Employee("Sarah Miller", "6667778888")
         val employee9 = Employee("Mike Clark", "9990001111")
         val employee10 = Employee("Jessica Taylor", "3334445555")
+        val employee11 = Employee("Chris Anderson", "8889990000")
+        val employee12 = Employee("Laura Martinez", "1231231234")
+        val employee13 = Employee("Brian Garcia", "4564564567")
+        val employee14 = Employee("Karen Robinson", "7897897890")
+        val employee15 = Employee("Kevin Wright", "1212121212")
+        val employee16 = Employee("Melissa Hall", "3434343434")
+        val employee17 = Employee("Jason Young", "5656565656")
+        val employee18 = Employee("Stephanie Turner", "7878787878")
+
+
+
+
+        val car1 = Car("Toyota", "Camry")
+        val car2 = Car("Honda", "Civic")
+        val car3 = Car("Ford", "Mustang")
+        val car4 = Car("Chevrolet", "Malibu")
+        val car5 = Car("Nissan", "Altima")
+        val car6 = Car("BMW", "3 Series")
+        val car7 = Car("Mercedes-Benz", "C-Class")
+        val car8 = Car("Audi", "A4")
+        val car9 = Car("Volkswagen", "Golf")
 
 
 
