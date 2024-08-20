@@ -43,8 +43,6 @@ class MainActivity : AppCompatActivity() {
         val employee18 = Employee("Stephanie Turner", "7878787878")
 
 
-
-
         val car1 = Car("Toyota", "Camry")
         val car2 = Car("Honda", "Civic")
         val car3 = Car("Ford", "Mustang")
@@ -54,7 +52,15 @@ class MainActivity : AppCompatActivity() {
         val car7 = Car("Mercedes-Benz", "C-Class")
         val car8 = Car("Audi", "A4")
         val car9 = Car("Volkswagen", "Golf")
-
+        val car10 = Car("Hyundai", "Elantra")
+        val car11 = Car("Kia", "Sportage")
+        val car12 = Car("Subaru", "Outback")
+        val car13 = Car("Mazda", "Mazda3")
+        val car14 = Car("Lexus", "RX")
+        val car15 = Car("Tesla", "Model S")
+        val car16 = Car("Jeep", "Wrangler")
+        val car17 = Car("Tesla", "Model S")
+        val car18 = Car("Lamborghini", "Huracan")
 
 
     }
