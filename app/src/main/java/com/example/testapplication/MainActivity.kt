@@ -64,41 +64,52 @@ class MainActivity : AppCompatActivity() {
 
         //Car related
         val car1 = Car("Toyota", "Camry")
-        car1.showCarDetails()
         val car2 = Car("Honda", "Civic")
-        car2.showCarDetails()
         val car3 = Car("Ford", "Mustang")
-        car3.showCarDetails()
         val car4 = Car("Chevrolet", "Malibu")
-        car4.showCarDetails()
         val car5 = Car("Nissan", "Altima")
-        car5.showCarDetails()
         val car6 = Car("BMW", "3 Series")
-        car6.showCarDetails()
         val car7 = Car("Mercedes-Benz", "C-Class")
-        car7.showCarDetails()
         val car8 = Car("Audi", "A4")
-        car8.showCarDetails()
         val car9 = Car("Volkswagen", "Golf")
-        car9.showCarDetails()
         val car10 = Car("Hyundai", "Elantra")
-        car10.showCarDetails()
         val car11 = Car("Kia", "Sportage")
-        car11.showCarDetails()
         val car12 = Car("Subaru", "Outback")
-        car12.showCarDetails()
         val car13 = Car("Mazda", "Mazda3")
-        car13.showCarDetails()
         val car14 = Car("Lexus", "RX")
-        car14.showCarDetails()
         val car15 = Car("Tesla", "Model S")
-        car15.showCarDetails()
         val car16 = Car("Jeep", "Wrangler")
-        car16.showCarDetails()
         val car17 = Car("Tesla", "Model S")
-        car17.showCarDetails()
         val car18 = Car("Lamborghini", "Huracan")
-        car18.showCarDetails()
+        val car19 = Car("Ferrari", "488")
+        val car20 = Car("Porsche", "911")
+
+
+        val carList = arrayListOf<Car>(
+            Car("Toyota", "Camry"),
+            Car("Honda", "Civic"),
+            Car("Ford", "Mustang"),
+            Car("Chevrolet", "Malibu"),
+            Car("Nissan", "Altima"),
+            Car("BMW", "3 Series"),
+            Car("Mercedes-Benz", "C-Class"),
+            Car("Audi", "A4"),
+            Car("Volkswagen", "Golf"),
+            Car("Hyundai", "Elantra"),
+            Car("Kia", "Sportage"),
+            Car("Subaru", "Outback"),
+            Car("Mazda", "Mazda3"),
+            Car("Lexus", "RX"),
+            Car("Tesla", "Model S"),
+            Car("Jeep", "Wrangler"),
+            Car("Tesla", "Model S"),
+            Car("Lamborghini", "Huracan"),
+            Car("Ferrari", "488"),
+            Car("Porsche", "911")
+        )
+
+
+
 
 
     }
