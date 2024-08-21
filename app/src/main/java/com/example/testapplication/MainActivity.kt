@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-
+        //Employee related
         val employee1 = Employee("John Doe", "1234567890")
         employee1.showEmployeeDetails()
         val employee2 = Employee("Jane Smith", "0987654321")
@@ -62,33 +62,46 @@ class MainActivity : AppCompatActivity() {
         employee18.showEmployeeDetails()
 
 
-
-
-
-
-
+        //Car related
         val car1 = Car("Toyota", "Camry")
+        car1.showCarDetails()
         val car2 = Car("Honda", "Civic")
+        car2.showCarDetails()
         val car3 = Car("Ford", "Mustang")
+        car3.showCarDetails()
         val car4 = Car("Chevrolet", "Malibu")
+        car4.showCarDetails()
         val car5 = Car("Nissan", "Altima")
+        car5.showCarDetails()
         val car6 = Car("BMW", "3 Series")
+        car6.showCarDetails()
         val car7 = Car("Mercedes-Benz", "C-Class")
+        car7.showCarDetails()
         val car8 = Car("Audi", "A4")
+        car8.showCarDetails()
         val car9 = Car("Volkswagen", "Golf")
+        car9.showCarDetails()
         val car10 = Car("Hyundai", "Elantra")
+        car10.showCarDetails()
         val car11 = Car("Kia", "Sportage")
+        car11.showCarDetails()
         val car12 = Car("Subaru", "Outback")
+        car12.showCarDetails()
         val car13 = Car("Mazda", "Mazda3")
+        car13.showCarDetails()
         val car14 = Car("Lexus", "RX")
+        car14.showCarDetails()
         val car15 = Car("Tesla", "Model S")
+        car15.showCarDetails()
         val car16 = Car("Jeep", "Wrangler")
+        car16.showCarDetails()
         val car17 = Car("Tesla", "Model S")
+        car17.showCarDetails()
         val car18 = Car("Lamborghini", "Huracan")
+        car18.showCarDetails()
 
 
     }
-
 
 
 }
