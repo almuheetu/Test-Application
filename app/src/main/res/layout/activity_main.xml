@@ -10,6 +10,8 @@
 
 <!--    <include layout="@layout/first_fragment_xml" />-->
 
-    <include layout="@layout/second_fragment_xml" />
+    <include layout="@layout/fragment_third" />
+
+<!--    <include layout="@layout/second_fragment_xml" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

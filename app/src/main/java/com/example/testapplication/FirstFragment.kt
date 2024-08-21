@@ -11,7 +11,7 @@ import com.example.testapplication.databinding.FirstFragmentXmlBinding
 import com.example.testapplication.carList
 
 
-class FirstFragment : Fragment(), CarAdapter.ItemClickListener {
+class FirstFragment : Fragment() {
     private lateinit var adapter: CarAdapter
     private lateinit var binding: FirstFragmentXmlBinding
 
@@ -30,11 +30,8 @@ class FirstFragment : Fragment(), CarAdapter.ItemClickListener {
 
         val recyclerView: RecyclerView = binding.CarRecyclerView
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
-        adapter = CarAdapter(carList, this)
+        adapter = CarAdapter(carList)
         recyclerView.adapter = adapter
-
-    }
-    override fun onItemClick(car: Car) {
 
     }
 

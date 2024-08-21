@@ -7,8 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class CarAdapter(
-    private var carList: ArrayList<Car>,
-    private val listener: ItemClickListener,
+    private var carList: ArrayList<Car>
 ) :
     RecyclerView.Adapter<CarAdapter.ViewHolder>() {
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -20,13 +19,6 @@ class CarAdapter(
             carModel = view.findViewById(R.id.tv_carList_carModel)
         }
     }
-
-    interface ItemClickListener {
-        fun onItemClick(car: Car) {
-        }
-
-    }
-
 
     override fun onCreateViewHolder(
         viewGroup: ViewGroup,
@@ -46,9 +38,6 @@ class CarAdapter(
         viewHolder.carName.text = car.name
         viewHolder.carModel.text = car.model
 
-        viewHolder.itemView.setOnClickListener {
-            listener.onItemClick(car)
-        }
     }
 
     override fun getItemCount(): Int {

@@ -21,8 +21,13 @@ class MainActivity : AppCompatActivity() {
 //            supportFragmentManager.beginTransaction().add(R.id.fragment_container, firstFragment)
 //                .commit()
 
-            val secondFragment = SecondFragment()
-            supportFragmentManager.beginTransaction().add(R.id.second_fragment_container, secondFragment)
+//            val secondFragment = SecondFragment()
+//            supportFragmentManager.beginTransaction().add(R.id.second_fragment_container, secondFragment)
+//                .commit()
+
+            val thirdFragment = ThirdFragment()
+            supportFragmentManager.beginTransaction()
+                .add(R.id.third_fragment_container, thirdFragment)
                 .commit()
 
 
